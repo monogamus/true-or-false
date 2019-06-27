@@ -18,7 +18,8 @@
   }
 
 body {
-    background-image: url("./img/image 2.png");
+    background-image: url("./img/image 2.jpeg");
+    background-size: 100%;
 }
 
 img {
@@ -35,5 +36,11 @@ h1, h2 {
 .start {
     width: 500px;
     height: 150px;
+    display: inline-block;
+}
+
+.tutorial {
+    width: 200px;
+    height: 80px;
     display: inline-block;
 }
