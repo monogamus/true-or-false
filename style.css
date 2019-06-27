@@ -22,12 +22,16 @@ body {
     background-size: 100%;
 }
 
+.wasted {
+    background-image: url("./img/wasted.jpg");
+}
+
 .nile {
-    background-image: url("./img/question1.jpg")
+    background-image: url("./img/question1.jpg");
 }
 
 .dog {
-  background-image: url("./img/question2.jpg")
+   background-image: url("./img/question2.jpg");
 }
 
 img {
@@ -91,4 +95,17 @@ p {
 
  a img:hover {
   opacity: 100;
+}
+
+.continue {
+  opacity: .5;
+}
+
+.continuehighlight img:hover {
+  opacity: 100;
+}
+
+.tried {
+  width: 27%;
+  height: 27%;
 }
