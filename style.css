@@ -22,6 +22,10 @@ body {
     background-size: 100%;
 }
 
+.nile {
+    background-image: url("./img/question1.jpg")
+}
+
 img {
     
 }
@@ -31,6 +35,14 @@ h1, h2 {
     font-family: "Mali";
     text-align: center;
     text-shadow: 3px 3px black;
+}
+
+p {
+  color: white;
+  font-family: "Mali";
+  text-align: center;
+  text-shadow: 3px 3px black;
+  font-size: 35px;
 }
 
 .start {
@@ -61,7 +73,12 @@ h1, h2 {
   opacity: 100;
 }
 
-.animation {
-  width: 10000px;
-  height: 100px;
+.true {
+  width: 512px;
+  height: 512px;
+}
+
+.false {
+  width: 512px;
+  height: 512px;
 }
