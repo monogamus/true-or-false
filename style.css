@@ -80,9 +80,15 @@ p {
 .true {
   width: 512px;
   height: 512px;
+  opacity: .5;
 }
 
 .false {
   width: 512px;
   height: 512px;
+  opacity: .5;
+}
+
+ a img:hover {
+  opacity: 100;
 }
