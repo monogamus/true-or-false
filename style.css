@@ -34,13 +34,34 @@ h1, h2 {
 }
 
 .start {
-    width: 500px;
+    width: 400px;
     height: 150px;
-    display: inline-block;
+    opacity: .5;
 }
 
 .tutorial {
-    width: 200px;
-    height: 80px;
-    display: inline-block;
+    width: 170px;
+    height: 60px;
+    opacity: .5;
+}
+
+.highlight {
+  display: inline-block;
+
+}
+.highlight img:hover {
+  opacity: 100;
+}
+
+.tutorialhighlight {
+  display: inline-block;
+
+}
+.tutorialhighlight img:hover {
+  opacity: 100;
+}
+
+.animation {
+  width: 10000px;
+  height: 100px;
 }
